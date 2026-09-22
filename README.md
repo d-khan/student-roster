@@ -94,11 +94,17 @@ The generated CSV includes:
 - Honors
 - DSPS
 
-## Authentication and Privacy
+## Authentication, Privacy, and AI
 
-Student Roster does **not** store your SDCCD username, password, or MFA code. Authentication is completed through the institution's browser-based sign-in process.
+Student Roster does **not collect or store your SDCCD username, password, or MFA code**. Authentication takes place through SDCCD's browser-based sign-in process.
 
-Browser authentication state may be retained locally on your computer so that you do not have to sign in every time you run the application.
+To reduce repeated sign-ins, browser authentication state may be retained locally on your computer.
+
+### No AI Processing
+
+Student Roster does **not use artificial intelligence (AI) to process student information**. Student roster data is **not sent to ChatGPT, OpenAI, or any other AI service** for processing, analysis, or storage.
+
+Roster processing and CSV generation are performed locally by the Student Roster application on your computer.
 
 Student Roster is intended for **authorized SDCCD faculty use**. Users are responsible for protecting exported student information and handling it in accordance with applicable institutional privacy and data-security requirements.
 
