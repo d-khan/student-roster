@@ -17,7 +17,7 @@ Choose the installer that matches your computer.
 
 ### Which version do I need?
 
-**Mac:** Select the ** Apple menu → About This Mac**.
+**Mac:** Click the ** Apple menu** in the **top-left corner of the screen**, then select **About This Mac**.
 
 - If you see an Apple M-series chip (M1, M2, M3, M4, M5, etc.), download **macOS Apple Silicon**.
 - If you see an Intel processor, download **macOS Intel**.
