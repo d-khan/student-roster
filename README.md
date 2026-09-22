@@ -10,70 +10,67 @@ Choose the installer that matches your computer.
 
 | Platform | Processor | Download |
 |---|---|---|
-| macOS | Apple Silicon (M1, M2, M3, M4, M5, etc.) | **macOS ARM64** |
-| macOS | Intel processor | **macOS Intel** |
-| Windows | Intel or AMD 64-bit processor | **Windows x64** |
-| Windows | ARM processor | **Windows ARM64** |
+| macOS | Apple Silicon (M1, M2, M3, M4, M5, etc.) | [Download macOS Apple Silicon](https://github.com/d-khan/student-roster/releases/latest/download/StudentRoster-1.4.2-macOS-ARM64.pkg) |
+| macOS | Intel processor | [Download macOS Intel](https://github.com/d-khan/student-roster/releases/latest/download/StudentRoster-1.4.2-macOS-Intel.pkg) |
+| Windows | Intel or AMD 64-bit processor | [Download Windows x64](https://github.com/d-khan/student-roster/releases/latest/download/StudentRoster-Setup-1.4.2-x64.exe) |
+| Windows | ARM processor | [Download Windows ARM64](https://github.com/d-khan/student-roster/releases/latest/download/StudentRoster-Setup-1.4.2-ARM64.exe) |
 
-> **Not sure which version to download?**
->
-> **macOS:** Select **Apple menu → About This Mac**. If your Mac shows an Apple M-series chip, use **macOS ARM64**. If it shows an Intel processor, use **macOS Intel**.
->
-> **Windows:** Open **Settings → System → About** and check **System type**. Most Windows computers with Intel or AMD processors should use **Windows x64**. Windows computers with an ARM-based processor should use **Windows ARM64**.
+### Which version do I need?
+
+**Mac:** Select **Apple menu → About This Mac**.
+
+- If you see an Apple M-series chip (M1, M2, M3, M4, M5, etc.), download **macOS Apple Silicon**.
+- If you see an Intel processor, download **macOS Intel**.
+
+**Windows:** Open **Settings → System → About** and check **System type**.
+
+- Intel or AMD 64-bit processor → download **Windows x64**.
+- ARM-based processor → download **Windows ARM64**.
 
 ## macOS Installation
 
-1. Download the `.pkg` file that matches your Mac.
+1. Download the `.pkg` file for your Mac.
 2. Open the downloaded package.
-3. Follow the installer instructions.
+3. Follow the installation instructions.
 4. Launch **Student Roster**.
 
-### If macOS Blocks the App
+### macOS Security
 
-Student Roster is distributed outside the Mac App Store. Depending on your macOS security settings, macOS may block the application the first time you try to open it.
+Student Roster is distributed outside the Mac App Store. macOS may therefore block the application the first time you try to open it.
 
-If this happens:
+If Student Roster is blocked:
 
 1. Try to open **Student Roster** once.
-2. Open **System Settings**.
-3. Select **Privacy & Security**.
-4. Scroll down to the **Security** section.
-5. Locate the message indicating that Student Roster was blocked.
-6. Click **Open Anyway**.
-7. Confirm that you want to open the application.
+2. Open **System Settings → Privacy & Security**.
+3. Scroll down to the **Security** section.
+4. Find the message indicating that Student Roster was blocked.
+5. Click **Open Anyway**.
+6. Confirm that you want to open the application.
 
-You should normally need to approve the application only the first time.
-
-> Only install Student Roster from a release source you trust.
+You should normally need to do this only once.
 
 ## Windows Installation
 
-1. Download the installer that matches your Windows computer.
-2. Run the `.exe` installer.
+1. Download the appropriate `.exe` installer.
+2. Run the installer.
 3. Follow the installation instructions.
 4. Launch **Student Roster** from the Start menu or desktop shortcut.
 
-For most Windows computers with an Intel or AMD processor, use the **Windows x64** installer.
+Most Windows computers with Intel or AMD processors should use the **Windows x64** version.
 
-## Using Student Roster
+## How to Use Student Roster
 
 1. Launch **Student Roster**.
-2. Enter the academic term, for example:
-
-   `Fall 2026`
-
-3. Enter one or more section numbers. Separate multiple sections with commas, for example:
-
-   `43422, 43378, 43445`
-
+2. Enter the academic term, for example: `Fall 2026`
+3. Enter one or more section numbers. Separate multiple sections with commas, for example: `43422, 43378, 43445`
 4. Click **Fetch Roster**.
 5. Choose where you want to save the CSV file.
 6. Complete the SDCCD sign-in and MFA process in the browser if requested.
-7. Student Roster processes the selected sections and creates the CSV file.
+7. Student Roster will process the selected sections and create the CSV file.
 
 ## CSV Output
 
-The generated CSV contains the following fields:
+The generated CSV includes:
 
 - Section
 - Course
@@ -86,22 +83,15 @@ The generated CSV contains the following fields:
 
 ## Authentication and Privacy
 
-Student Roster does **not** store your SDCCD username, password, or MFA code. Authentication is completed directly through the institution's browser-based sign-in process.
+Student Roster does **not** store your SDCCD username, password, or MFA code. Authentication is completed through the institution's browser-based sign-in process.
 
-Browser authentication state may be retained locally on your computer so that you do not have to sign in on every run.
+Browser authentication state may be retained locally on your computer so that you do not have to sign in every time you run the application.
 
 Student Roster is intended for **authorized SDCCD faculty use**. Users are responsible for protecting exported student information and handling it in accordance with applicable institutional privacy and data-security requirements.
 
-## Supported Platforms
+## All Releases
 
-- macOS — Apple Silicon (ARM64)
-- macOS — Intel (x86-64)
-- Windows — Intel/AMD 64-bit (x64)
-- Windows — ARM64
-
-## Version
-
-**Student Roster 1.4.2**
+Previous versions and all available installers can be found on the [GitHub Releases](https://github.com/d-khan/student-roster/releases) page.
 
 ## Author
 
