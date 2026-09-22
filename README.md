@@ -22,10 +22,10 @@ Choose the installer that matches your computer.
 - If you see an Apple M-series chip (M1, M2, M3, M4, M5, etc.), download **macOS Apple Silicon**.
 - If you see an Intel processor, download **macOS Intel**.
 
-**Windows:** Open **Settings → System → About** and check **System type**.
+**Windows:** Click the **Start** button on the taskbar, then select **Settings → System → About**. Under **Device specifications**, look for **System type**.
 
-- Intel or AMD 64-bit processor → download **Windows x64**.
-- ARM-based processor → download **Windows ARM64**.
+- If it shows a **64-bit operating system with an x64-based processor**, download **Windows x64**.
+- If it shows an **ARM-based processor**, download **Windows ARM64**.
 
 ## macOS Installation
 
@@ -57,6 +57,19 @@ You should normally need to do this only once.
 4. Launch **Student Roster** from the Start menu or desktop shortcut.
 
 Most Windows computers with Intel or AMD processors should use the **Windows x64** version.
+
+### Windows Security Notice
+
+Because Student Roster is currently distributed without a Windows code-signing certificate, **Microsoft Defender SmartScreen** may display a warning when you run the installer.
+
+If you downloaded Student Roster from this official GitHub repository:
+
+1. Open the downloaded installer.
+2. If Windows displays **"Windows protected your PC"**, click **More info**.
+3. Verify that you downloaded the installer from this GitHub repository.
+4. Click **Run anyway** to continue the installation.
+
+You should only bypass the warning for a Student Roster installer that you downloaded from this official repository.
 
 ## How to Use Student Roster
 
